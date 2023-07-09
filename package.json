@@ -1,0 +1,14 @@
+{
+  "name": "turborepo-vite-nest",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "turbo": "^1.10.6"
+  }
+}
