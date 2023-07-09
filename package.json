@@ -2,14 +2,17 @@
   "name": "turborepo-vite-nest",
   "version": "1.0.0",
   "workspaces": [
-    "apps/*"
+    "apps/*",
+    "packages/*"
   ],
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
+    "start": "turbo start",
     "test": "turbo test"
   },
   "devDependencies": {
+    "prettier-config-custom": "*",
     "turbo": "^1.10.6"
   },
   "keywords": [],
