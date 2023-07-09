@@ -1,0 +1,11 @@
+{
+  "name": "config",
+  "version": "0.0.0",
+  "description": "",
+  "files": [
+    "prettier.config.cjs"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

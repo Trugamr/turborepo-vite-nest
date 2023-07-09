@@ -12,6 +12,7 @@
     "start": {
       "dependsOn": ["^build"]
     },
-    "test": {}
+    "test": {},
+    "lint": {}
   }
 }
