@@ -9,9 +9,11 @@
     "build": "turbo build",
     "dev": "turbo dev",
     "start": "turbo start",
-    "test": "turbo test"
+    "test": "turbo test",
+    "format": "prettier --write \"**/*.{cjs,js,ts,tsx,json,md}\""
   },
   "devDependencies": {
+    "prettier": "^3.0.0",
     "prettier-config-custom": "*",
     "turbo": "^1.10.6"
   },
